@@ -1,0 +1,66 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.wrapper{
+    margin:0;
+    padding: 30px;
+    background-color: #f5f5f7;
+    /* border: 1px solid black; */
+}
+.circle{
+   /* background-color: #cdcec7; */
+   /* content: '\25CF'; */
+   background: black;
+   width: 20px;
+   height: 20px;
+   border-radius: 50%;
+}
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #72738e;
+}
+/* flex container */
+.flex-nav ul{
+    margin: 0;
+    padding:0;
+    display: flex;
+    /* justify-content: baseline; */
+
+    /* justify-content: flex-end; */
+}
+/* flex child */
+.flex-child{
+    flex:3;
+    padding-top: 6px;
+}
+
+.one{
+    padding-left: 30px;
+    flex:3;
+}
+/* .two:active{
+    color:#4f506d;
+} */
+.nine{
+    border:none;
+    background-color:#e7e8eb;
+	border-radius:30px;	
+	color:#72738e;
+    padding:20px 3px;
+    text-decoration:none;	
+    font-size: 15px;
+}
+
+/* do a search on how to do @media for flexbox */
+/* @media all and (max-width:1000px){
+
+}
+@media all and  */
