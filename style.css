@@ -1,4 +1,4 @@
-body{
+*{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -7,18 +7,28 @@ body{
 
 .wrapper{
     margin:0;
-    padding: 30px;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-bottom: 20px; 
+    padding-right: 60px;
     background-color: #f5f5f7;
-    /* border: 1px solid black; */
+    height: 50vh;
 }
 .circle{
-   /* background-color: #cdcec7; */
-   /* content: '\25CF'; */
-   background: black;
+   background: #cdced7;
    width: 20px;
    height: 20px;
    border-radius: 50%;
+   flex:2px;
 }
+.circle-b{
+    background: #e1e1e7;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    flex:2px;
+ }
+/* #e1e1e7 */
 .flex-container{
     padding-top: 60px;
 }
@@ -30,20 +40,49 @@ a{
     text-decoration: none;
     color: #72738e;
 }
-/* flex container */
+/* flex container     
+}*/
 .flex-nav ul{
-    margin: 0;
+    /* margin: 0; */
     padding:0;
     display: flex;
     padding-top: 20px;
-    /* justify-content: baseline; */
-
-    /* justify-content: flex-end; */
+    /* flex-basis: 500%; */
+    /* max-width: 1440px; */
+    width: 100%;
+    max-width: 1440px;
+    /* display: block; */
+    margin: 0 auto
 }
+/* .flex-nav{
+    width: 100%;
+    max-width: 1440px;
+    display: block;
+    margin: 0 auto
+} */
 /* flex child */
 .flex-child{
     flex:3;
-    padding-top: 15px;
+    padding-top: 17px;
+    font-size: 12.5px;
+}
+.two{
+    flex:2;
+    align-items: center;
+}
+.circle-p{
+   /* color: white; */
+   position: absolute;
+   top: 0;
+   padding-top: 58px;
+    /* padding-top: :50px */
+}
+.three{
+    flex:3;
+}
+.p--pad{
+    padding-left: 40px;
+    /* padding-top: ; */
 }
 
 .one{
@@ -54,21 +93,88 @@ a{
 /* .two:active{
     color:#4f506d;
 } */
+ .eight{
+    flex: 1;
+}
+
+.four{
+    flex:1;
+    justify-content: flex-end;
+
+}
+.five{
+    flex:1;
+    /* justify-content: flex-end; */
+
+}
+.six{
+    flex:1;
+    /* justify-content: flex-end; */
+
+}
+
+.seven{
+    flex: 2;
+    /* justify-content: flex-end; */
+
+}
 .btn{
-    flex:3;
-    padding-top: 6px;
+    flex:2;
     border:none;
     background-color:#e7e8eb;
 	border-radius:30px;	
 	color:#72738e;
-    padding:20px 3px;
+    padding:20px 1px;
     text-decoration:none;	
-    font-size: 15px;
-    /* padding-top: 30px; */
+    font-size: 13.5px;
+}
+
+/*css for second flex*/
+.btn--purple{
+    background-color:#181922;
+    color: white;
+
+}
+/* btn--color:hover{
+    background-color: #e7e8eb;
+} */
+input[type=text] {
+    border-bottom: 2px solid #cfd0d9;  
+    background-color:#f5f5f7;
+    /* color: #cfd0d9;   */
+    /* border: none; */
+}
+
+.flex-land-page{
+    padding:0;
+    display: flex;
+    padding-top: 20px;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    /* flex-wrap:column wrap; */
+    /* height: 50vh; */
+}
+.flex-h5{
+    position: relative;
+    left: -150px;
+    bottom: -90px;
+}
+h2.flex-just{
+    padding-top: 130px;
+    font-size: 100px;
+}
+.flex-input{
+    position: relative;
+    left: -440px;
+    bottom: -180px;
 }
 
 /* do a search on how to do @media for flexbox */
 /* @media all and (max-width:1000px){
-
-}
-@media all and  */
+width: 100%;
+    max-width: 1440px;
+    /* display: block; */
+    /* margin: 0 auto; */
+/* }
+@media all and  */ 
